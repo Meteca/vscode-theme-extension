@@ -1,0 +1,35 @@
+{
+    "name": "briki-theme",
+    "displayName": "Briki Theme",
+    "description": "Official Briki theme for Visual Studio Code",
+    "publisher": "Meteca",
+    "version": "1.0.0",
+    "icon": "images/icon_256.ico",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "Theme",
+        "Dark theme"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Briki Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Briki-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Meteca/vscode_briki_extension.git"
+    },
+    "scripts": {
+        "list": "vsce ls",
+        "package": "vsce package"
+    }
+}
