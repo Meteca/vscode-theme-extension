@@ -4,7 +4,8 @@
     "description": "Official Briki theme for Visual Studio Code",
     "publisher": "Meteca",
     "version": "1.0.0",
-    "icon": "images/icon_256.ico",
+    "icon": "images/Icon_briki.png",
+    "license": "CC-BY-NC-SA-4.0",
     "engines": {
         "vscode": "^1.43.0"
     },
@@ -13,7 +14,9 @@
     ],
     "keywords": [
         "Theme",
-        "Dark theme"
+        "Dark theme",
+        "Briki",
+        "IoT"
     ],
     "contributes": {
         "themes": [
@@ -26,7 +29,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Meteca/vscode_briki_extension.git"
+        "url": "https://github.com/Meteca/vscode-theme-extension"
     },
     "scripts": {
         "list": "vsce ls",
